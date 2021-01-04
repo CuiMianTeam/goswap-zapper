@@ -12,7 +12,7 @@ task("accounts", "Prints the list of accounts", async () => {
         console.log(await account.getAddress());
     }
 });
-
+/*
 module.exports = {
     defaultNetwork: "buidlerevm",
     networks: {
@@ -55,3 +55,4 @@ module.exports = {
         }
     }
 };
+*/
